@@ -1,39 +1,60 @@
+
 📈 Natural Gas Price Analysis
 
-JPMorgan Chase & Co. – Analytics
+🏦 JPMorgan Chase & Co. – Analytics Job Simulation
+
+
+---
 
 🔍 Project Overview
 
-This project is part of the JPMorgan Chase  Analytics and the objective of this task is to analyze, model, and interpret Natural Gas price movements using historical data and quantitative techniques—replicating the type of real-world analytical work performed by Quantitative Researchers at JPMorgan.
+This project is part of the JPMorgan Chase & Co. Analytics Virtual Experience.
+The objective of this task is to analyze, model, and interpret Natural Gas price movements using historical data and quantitative techniques—replicating the type of real-world analytical work performed by Quantitative Researchers at JPMorgan.
 
-The project focuses on data-driven reasoning, time-series behavior, and market-oriented insights, emphasizing clarity, accuracy, and practical financial interpretation rather than black-box modeling.
+The project emphasizes:
+
+Data-driven reasoning
+
+Time-series behavior
+
+Market-oriented insights
+
+
+with a strong focus on clarity, accuracy, and practical financial interpretation, rather than black-box modeling.
 
 
 ---
 
 🎯 Business Context
 
-Natural Gas is a highly volatile commodity influenced by multiple real-world factors such as:
+Natural Gas is a highly volatile commodity, influenced by multiple real-world factors such as:
 
-Seasonal demand (winter heating & summer cooling)
+❄️ Seasonal demand (winter heating & summer cooling)
 
-Storage levels and inventory cycles
+🛢️ Storage levels and inventory cycles
 
-Supply disruptions
+⚠️ Supply disruptions
 
-Long-term market expectations
+📊 Long-term market expectations
 
 
 At JPMorgan, Quantitative Research teams analyze such instruments to:
 
 Price financial contracts
 
-Forecast future movements
+Forecast future price movements
 
-Support trading and risk decisions
+Support trading and risk management decisions
 
 
-This task simulates how a Quantitative Research Analyst would explore historical price data, identify patterns, and justify assumptions using quantitative logic.
+This task simulates how a Quantitative Research Analyst would:
+
+Explore historical price data
+
+Identify patterns
+
+Justify assumptions using quantitative logic
+
 
 
 ---
@@ -60,12 +81,12 @@ Asset: Natural Gas
 
 Frequency: Time-series price data
 
+
 Structure:
 
 Date
 
 Price
-
 
 
 The dataset represents historical Natural Gas prices used to analyze temporal behavior and market dynamics.
@@ -75,17 +96,17 @@ The dataset represents historical Natural Gas prices used to analyze temporal be
 
 🛠️ Tools & Technologies Used
 
-Python
+🐍 Python
 
-Jupyter Notebook
+📓 Jupyter Notebook
 
-Pandas – data manipulation and cleaning
+🧮 Pandas – data manipulation and cleaning
 
-NumPy – numerical computations
+🔢 NumPy – numerical computations
 
-Matplotlib / Seaborn – exploratory visualization
+📊 Matplotlib / Seaborn – exploratory visualization
 
-Statistical Analysis – descriptive and trend analysis
+📈 Statistical Analysis – descriptive and trend analysis
 
 
 
@@ -113,7 +134,7 @@ Identified seasonal fluctuations
 
 3️⃣ Trend & Pattern Identification
 
-Analyzed upward/downward price movements
+Analyzed upward and downward price movements
 
 Studied cyclical behavior related to market demand
 
@@ -134,13 +155,13 @@ Evaluated assumptions used in modeling price behavior
 
 📊 Key Insights
 
-Natural Gas prices exhibit clear seasonality, with stronger movements during high-demand periods.
+Natural Gas prices exhibit clear seasonality, with stronger movements during high-demand periods
 
-Price volatility varies significantly across time, highlighting market sensitivity.
+Price volatility varies significantly across time, highlighting market sensitivity
 
-Long-term trends reflect supply-demand dynamics rather than random noise.
+Long-term trends reflect supply–demand dynamics, not random noise
 
-Historical price behavior provides valuable context for pricing models and forecasts.
+Historical price behavior provides valuable context for pricing models and forecasts
 
 
 
@@ -148,7 +169,7 @@ Historical price behavior provides valuable context for pricing models and forec
 
 💼 Relevance to Quantitative Research
 
-This project closely mirrors responsibilities of a Quantitative Research Analyst, including:
+This project closely mirrors the responsibilities of a Quantitative Research Analyst, including:
 
 Time-series data analysis
 
@@ -166,7 +187,8 @@ Communicating findings clearly to stakeholders
 
 🏦 About the Program
 
-This project is part of the JPMorgan Chase & Co Analytics.
+This project is part of the JPMorgan Chase & Co. Analytics
+
 ✔️ Real-world inspired tasks
 ✔️ Designed by JPMorgan professionals
 ✔️ Focused on industry-relevant skills
@@ -207,13 +229,17 @@ Abdul Wahaab Baig
 Data Analyst | Quantitative & Financial Data Enthusiast
 Computer Science Engineering (AI & ML) – Osmania University
 
+
+---
+
 ⭐ Acknowledgements
 
 JPMorgan Chase & Co.
-Virtual Internship Platform
 
 
-⭐ If you’re a recruiter:
 
-This repository demonstrates real-world financial analysis skills, not just academic exercises.
+---
 
+⭐ If you’re a recruiter
+
+This repository demonstrates real-world financial analysis skills, not just academics.
