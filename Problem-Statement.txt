@@ -1,0 +1,16 @@
+## Problem Statement: Natural Gas Price Analysis
+
+Natural gas prices change over time due to factors such as seasonal demand, supply conditions, and market trends. For trading and storage-related decisions, it is important to have reliable price data and the ability to estimate prices for any given date.
+
+In this project, monthly natural gas price data is provided, representing the market price of natural gas at the end of each month. The dataset includes historical prices from October 2020 to September 2024, along with limited future price data. However, the available data is not detailed enough to directly estimate prices for specific dates or longer-term contracts.
+
+As a data analyst, the task is to **analyze historical natural gas price data** and identify patterns, especially **seasonal trends across different months of the year**. Based on these insights, the goal is to build a model that can estimate the price of natural gas for any given date in the past and also **extrapolate prices up to one year into the future**.
+
+The key objectives of this project include:
+
+* Exploring and visualizing historical natural gas price data
+* Identifying seasonal and time-based trends in prices
+* Estimating gas prices for any selected date
+* Providing future price estimates to support storage and trading decisions
+
+The final outcome is a function that accepts a date as input and returns an estimated natural gas price. This analysis supports better decision-making for natural gas storage and trading strategies and demonstrates how **data analysis and time-series techniques** can be applied to real-world commodity pricing problems.
