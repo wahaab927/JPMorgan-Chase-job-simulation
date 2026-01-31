@@ -1,4 +1,4 @@
-# JPMorgan Chase Job Simulation
+# JPMorgan Chase Analytics
 
 This repository contains a job simulation project modeled after a real-world task for JPMorgan Chase. It is designed to test and demonstrate skills in data analysis, visualization, and engineering in a finance context. The project provides a realistic experience simulating tasks a new analyst might encounter.
 
