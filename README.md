@@ -25,6 +25,107 @@ This repository contains a job simulation project modeled after a real-world tas
 
 This project simulates a typical workflow for a JPMorgan Chase analyst. It focuses on processing, analyzing, and visualizing stock price data using Python and Jupyter notebooks. The simulation covers tasks such as data retrieval, calculation of key financial metrics, and interactive charting. The project is suitable for interview preparation and skill assessment in quantitative finance, data science, and related roles.
 ---
+---
+
+## 🧩 Business Context & Task Description
+
+This project was completed as part of a **JPMorgan Chase job simulation**, where I worked in the role of a **Data Analyst supporting a commodity trading desk**.
+
+### 📩 Business Scenario
+
+Alex, a Vice President on the commodity trading desk, plans to begin trading **natural gas storage contracts**.  
+However, the available market data lacked sufficient quality and granularity to accurately price long-term storage contracts.
+
+The desk required:
+- Clean historical natural gas price data  
+- Analysis of long-term trends and seasonality  
+- An estimation of future gas prices  
+- A system that can return a price estimate for any given date  
+
+Natural gas storage contracts involve:
+- Buying gas at an **injection date**  
+- Storing it in underground facilities  
+- Selling it at a later **withdrawal date**  
+- Profiting from **seasonal price differences** (e.g., buying in summer, selling in winter)
+
+To support this strategy, reliable historical and projected price data is essential.
+
+---
+
+## 🎯 Task Objective
+
+As the Data Analyst, my responsibility was to:
+
+- Download monthly natural gas price data from an external source  
+- Analyze historical price movements  
+- Identify trends and seasonal patterns  
+- Extrapolate prices one year into the future  
+- Build a function that:
+  - Takes a date as input  
+  - Returns an estimated natural gas price for that date  
+- Visualize the results to support business decision-making  
+
+The dataset contains monthly natural gas prices from:
+
+> **31st October 2020 to 30th September 2024**
+
+Each data point represents the market price of natural gas delivered at the end of a month.
+
+---
+
+## 🛠️ Analytical Approach
+
+To solve the problem, I implemented the following workflow:
+
+1. **Data Ingestion**
+   - Loaded historical natural gas price data from CSV
+
+2. **Data Cleaning & Validation**
+   - Checked for missing values  
+   - Ensured correct date formatting  
+   - Verified price consistency  
+
+3. **Exploratory Data Analysis (EDA)**
+   - Visualized historical price trends  
+   - Calculated rolling averages  
+   - Studied month-wise seasonal behavior  
+   - Analyzed year-over-year price changes  
+
+4. **Price Estimation Model**
+   - Built a function that accepts a date as input  
+   - Interpolates historical prices  
+   - Extrapolates prices for one future year  
+
+5. **Visualization & Business Interpretation**
+   - Created charts to highlight trends and seasonality  
+   - Summarized findings in business-friendly language  
+
+This solution provides the trading desk with:
+- A clearer understanding of market behavior  
+- Data-driven support for storage contract pricing  
+- A foundation for forecasting and risk evaluation  
+
+---
+
+## 👨‍💼 Role & Skills Demonstrated
+
+This task reflects the responsibilities of a Data Analyst in a financial environment:
+
+- Data wrangling and preprocessing  
+- Time series analysis  
+- Trend and seasonality detection  
+- Visualization and storytelling with data  
+- Translating technical results into business insights  
+
+It also demonstrates practical use of:
+- Python  
+- pandas  
+- matplotlib / Plotly  
+- Analytical thinking in a finance context  
+
+---
+
+
 
 
 ## 📊 Insights from the data
