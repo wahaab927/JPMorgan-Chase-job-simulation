@@ -24,6 +24,78 @@ This repository contains a job simulation project modeled after a real-world tas
 ## Project Overview
 
 This project simulates a typical workflow for a JPMorgan Chase analyst. It focuses on processing, analyzing, and visualizing stock price data using Python and Jupyter notebooks. The simulation covers tasks such as data retrieval, calculation of key financial metrics, and interactive charting. The project is suitable for interview preparation and skill assessment in quantitative finance, data science, and related roles.
+---
+
+## 📊 Insights from the data
+
+This section presents a structured exploratory analysis of historical natural gas prices. The objective is to understand long-term trends, seasonal behavior, and year-over-year changes to support better pricing, forecasting, and storage strategy decisions.
+
+---
+
+### 1. Historical Price Trend
+
+![Price Trend](analytics%20charts/12%20months%20chart.png)
+
+
+This chart shows the full time series of monthly natural gas prices. It helps identify overall market direction, periods of high volatility, and major price swings. Such trend analysis is critical for understanding market cycles and for setting expectations when pricing long-term storage contracts.
+
+**Insights:**
+- Prices fluctuate significantly over time, indicating a volatile commodity market.
+- There are visible phases of rising and falling prices, suggesting cyclical behavior.
+- Sharp movements highlight periods of market stress or supply-demand imbalance.
+
+---
+
+### 2. Rolling Average (Trend Smoothing)
+
+![Price Rolling Mean](analytics%20charts/price_rolling_mean.png)
+
+
+The rolling average smooths short-term noise and makes long-term trends easier to interpret. This is useful for separating temporary fluctuations from structural market movements.
+
+**Insights:**
+- The smoothed line reveals clearer upward and downward trend phases.
+- Short-term spikes are reduced, helping focus on the underlying market direction.
+- This view is helpful for medium- to long-term planning and strategy decisions.
+
+---
+
+### 3. Seasonal Price Patterns
+
+![Seasonality Monthly Average](analytics%20charts/seasonality_monthly_avg.png)
+
+This chart shows average prices by month, helping identify seasonal effects in natural gas pricing. Seasonality is especially important for storage strategies, where gas is often bought in low-price periods and sold in high-price periods.
+
+**Insights:**
+- Prices vary by month, indicating a seasonal component in demand and supply.
+- Certain months tend to have higher average prices, which may align with peak demand periods.
+- This pattern supports the business case for seasonal storage and arbitrage strategies.
+
+---
+
+### 4. Year-over-Year Price Changes
+
+![Year Over Year Change](analytics%20charts/Code_Generated_Image.png)
+
+Year-over-year (YoY) changes highlight how prices evolve compared to the same period in the previous year. This helps assess market growth, contraction, and overall stability.
+
+**Insights:**
+- There are periods of strong positive and negative YoY changes, showing market instability.
+- Large swings indicate that external factors (e.g., supply shocks, demand changes) can significantly impact prices.
+- YoY analysis is useful for risk assessment and scenario planning.
+
+---
+
+### 🧠 Key Business Takeaways
+
+- Natural gas prices are highly volatile, making risk management and forecasting essential.
+- Trend and rolling average analysis help distinguish long-term movements from short-term noise.
+- Clear seasonal patterns support storage-based trading strategies (buy low, sell high).
+- Year-over-year variability highlights the need for conservative assumptions in long-term contract pricing.
+- Overall, this analysis provides a data-driven foundation for pricing, storage decisions, and risk evaluation in commodity markets.
+
+---
+
 
 ---
 
